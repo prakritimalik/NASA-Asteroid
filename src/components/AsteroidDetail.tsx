@@ -8,6 +8,7 @@ import { AsteroidInterface } from '../utils/types';
 const AsteroidDetail = () => {
     const [asteroid, setAsteroid] = useState<AsteroidInterface>();
     const {id} = useParams<{id: string}>();
+
     // useEffect(  () =>  {
     //     const response = await asteroidApi.get<any>(`/neo/${id}`);
     // }, []);
